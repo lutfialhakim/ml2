@@ -108,7 +108,7 @@ with st.form(key='prediction_form'):
         st.write("### Masukkan Data Ikan")
         weight = st.number_input('Berat Ikan (dalam gram)', min_value=0.0, format="%.2f")
         length = st.number_input('Panjang Ikan (dalam cm)', min_value=0.0, format="%.2f")
-        height = st.number_input('Tinggi Ikan (dalam cm)', min_value=0.0, format="%.2f")
+        height = st.number_input('Rasio Berat & Panjang (dalam cm)', min_value=0.0, format="%.2f")
         
         submit = st.form_submit_button(label='Prediksi Jenis Ikan')
         
