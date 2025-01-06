@@ -11,24 +11,24 @@ import matplotlib.pyplot as plt
 
 # Load models from the specified paths
 fish_model_svm = pickle.load(open('fish/svm_fish.pkl', 'rb'))
-fish_scaler_svm = pickle.load(open('fish/svm_scaler_fish.pkl', 'rb'))
+#fish_scaler_svm = pickle.load(open('fish/svm_scaler_fish.pkl', 'rb'))
 fish_model_rfc = pickle.load(open('fish/randomforest_fish.pkl', 'rb'))
 fish_model_perceptron = pickle.load(open('fish/prcp_fish.pkl', 'rb'))  # Load Perceptron model
 fish_model_prcp = pickle.load(open('fish/prcp_fish.pkl', 'rb'))
 
 fruit_model_svm = pickle.load(open('fruit/svm_fruit.pkl', 'rb'))
-fruit_scaler_svm = pickle.load(open('fruit/svm_scaler_fruit.pkl', 'rb'))
+#fruit_scaler_svm = pickle.load(open('fruit/svm_scaler_fruit.pkl', 'rb'))
 fruit_model_rfc = pickle.load(open('fruit/randomforest_fruit.pkl', 'rb'))
 fruit_model_perceptron = pickle.load(open('fruit/prcp_fruit.pkl', 'rb'))  # Load Perceptron model
 fruit_model_prcp = pickle.load(open('fruit/prcp_fruit.pkl', 'rb'))
 
 pumpkin_model_svm = pickle.load(open('pumpkin/svm_pumpkin.pkl', 'rb'))
-pumpkin_scaler_svm = pickle.load(open('pumpkin/svm_scaler_pumpkin.pkl', 'rb'))
+#pumpkin_scaler_svm = pickle.load(open('pumpkin/svm_scaler_pumpkin.pkl', 'rb'))
 pumpkin_model_rfc = pickle.load(open('pumpkin/randomforest_pumpkin.pkl', 'rb'))
 pumpkin_model_perceptron = pickle.load(open('pumpkin/prcp_pumpkin.pkl', 'rb'))  # Load Perceptron model
 pumpkin_model_prcp = pickle.load(open('pumpkin/prcp_pumpkin.pkl', 'rb'))
 
-wine_model_kmeans = pickle.load(open('kmeans/kmeans_wine.pkl', 'rb'))
+wine_model_kmeans = pickle.load(open('kmeans/kmeans_wine2.pkl', 'rb'))
 
 # Page title
 st.title('Prediksi Machine Learning')
